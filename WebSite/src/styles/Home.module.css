@@ -1,0 +1,28 @@
+.main_wrapper {
+    /* position : relative; */
+    /* width : 100%; */
+    /* min-height: 1200px; */
+    display : flex;
+    flex-direction: column;
+    /* gap : 100px; */
+}
+
+.image_wrapper {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}   
+
+.content_wrapper {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+

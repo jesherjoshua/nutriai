@@ -1,5 +1,5 @@
 <h1 align=center><a href='https://ieeesb-hackathon-url.vercel.app/'>Nutri AI</a></h1>
-<p align=center>your personal nutrionist</p>
+<p align=center>your personal nutritionist</p>
 <div align='center'>
   
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jesherjoshua/nutriai?logo=github&style=for-the-badge)](https://github.com/jesherjoshua/nutriai)
@@ -11,8 +11,9 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&log)
 	![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-  	![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-    ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+  ![NextJS](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+	![NumPy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
     ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 </div>
 

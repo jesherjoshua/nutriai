@@ -1,0 +1,143 @@
+.NavBar_container {
+    /* border : 1px solid black; */
+    padding : 0.5%;
+    display : flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(4, 1, 38);
+    color : whitesmoke;
+}
+
+.NavBar_container_image_container{
+    padding : 10px;
+    /* border : 1px solid black; */
+    position: relative;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width : 20%;
+    gap : 1rem;
+}
+
+.NavBar_container_image_container_image {
+    background: rgb(247, 247, 247);
+}
+
+.NavBar_container_value_container_value_li {
+    text-decoration: none;
+    color : whitesmoke;
+}
+
+.NavBar_container_value_container {
+    /* border : 1px solid black; */
+    padding : 2%;
+    width : 50%;
+}
+
+.NavBar_link {
+    text-decoration: none;
+    color : whitesmoke;
+    padding: 5%;
+}
+
+.NavBar_link:hover {
+    color : rgb(4, 1, 38);
+    background-color: aqua;
+    border-radius: 12%;
+}
+
+.Link_menu_style{
+    color : #fff;
+    font-family: var(--font-family);
+    font-weight: 500; 
+    font-size : 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin : 0 1rem;
+    cursor : pointer;
+}
+
+.NavBar_container_value_container_value {
+    display: flex;
+    text-decoration: none;
+    gap : 3rem;
+    list-style-type: none;
+    justify-content: center;
+    align-items : center;
+}
+
+.NavBar_container_login_container {
+    /* border : 1px solid black; */
+    width : 10%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    gap : 0.5rem;
+}
+
+.NavBar_container_login_container_login {
+    color : whitesmoke;
+    border-radius: 10%;
+    background: red;
+    cursor : pointer;
+    padding : 5px;
+}
+
+.NavBar_container_login_container_login:hover {
+    background: darkred;
+}
+
+.facerecognition__navbar_menu {
+    margin-left : 1rem;
+
+    display : none;
+    position: relative;
+}
+
+.facerecognition__navbar_menu_container {
+    display : flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: var(--color-footer);
+    position: absolute;
+    padding : 2rem;
+    top : 40px;
+    right : 0;
+    margin-top : 1rem;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    min-width: 210px;
+}
+
+.facerecognition__navbar_menu_container p {
+    margin : 1rem 0;
+}
+
+@media screen and (max-width : 1050px) {
+    .NavBar_container_value_container,
+    .NavBar_container_login_container{
+        display : none;
+    }
+
+    .facerecognition__navbar_menu {
+        display : flex; 
+        position: absolute;
+        right : 10px;
+        top : 10px;
+    }
+    .NavBar_icon {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+      }
+
+}
+
+.scale_up_center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+      both;
+    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
